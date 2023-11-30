@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</title>
+    <link rel="stylesheet" href="stylestest.css">
     <link rel="stylesheet" href="stylesheet/style.css">
     <style>
         h1{
-            color: darkorange; /* เปลี่ยนสีหัวเรื่่องใหญ่เป็นสีน้ำตาล */
+            color: rgb(100, 198, 255), 255); /* เปลี่ยนสีหัวเรื่่องใหญ่เป็นสีน้ำตาล */
             font-size: 20pt;
         }
         div.myid{
@@ -21,13 +22,13 @@
         }
         h2{
             color: rgb(121, 95, 145);
-            font-size: 80pt;
+            font-size: 60pt;
         }
         #myID{
             font-size: 50pt;
-            color: coral;
+            color: rgb(80, 255, 138);
         }
-        .myclass{ /**/
+        .myclass{ /*100*/
             font-size: 50pt;
         }
         div p{ /* 2 */
@@ -35,24 +36,34 @@
             color: springgreen;
         }
         p.myclass{ /* 11 */
-            font-size: 60pt;
-            color: burlywood;
+            font-size: 30pt;
+            color: rgb(247, 141, 3);
         }
-        p{/* 1 */
+        p{/* 102 */
             color: rgb(255, 0, 200);
             font-size: 40pt;
         }
-        
+
+        body{
+           font-size: 30px;
+        }
+        div{
+            font-size: 1.5em;
+        }
     </style>
-</head>
+  </head>
 <body>
-    <h1>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</h1>
+        <span style="font-size: 1rem;">กำหนดค่าขนาดตัวอักษร = 1 rm</span>
+        <span style="font-size: 16px;">กำหนดค่าขนาดตัวอักษร = 16 rm</span>
+        <span style="font-size: 2rem;">กำหนดค่าขนาดตัวอักษร = 2 rm</span>
+        <h1>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</h1>
+<div>
+        <p class="myclass">Lorem ipsum dolor sit, amet consectetur adipisicing <span style="background-color: rgb(255, 0, 0);"> elit. </span>Eum voluptatem perferendis expedita libero suscipit. Suscipit optio qui praesentium, minus necessitatibus, ipsam asperiores culpa eligendi quod aliquid omnis odio at voluptatibus?</p>
+</div>
     <div>
-        <p class="myclass">Lorem ipsum dolor sit, amet consectetur adipisicing <span style="background-color: blanchedalmond;"> elit. </span>Eum voluptatem perferendis expedita libero suscipit. Suscipit optio qui praesentium, minus necessitatibus, ipsam asperiores culpa eligendi quod aliquid omnis odio at voluptatibus?</p>
-    </div>
-    <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, culpa dolore quae ipsum optio necessitatibus dolorum quam soluta nulla debitis nesciunt, officia, sed temporibus mollitia illum sequi odio ipsa!</p>
-    <h2 style="font-size: 30pt;">การใช้งาน External Style</h2>
-    </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, culpa dolore quae ipsum optio necessitatibus dolorum quam soluta nulla debitis nesciunt, officia, sed temporibus mollitia illum sequi odio ipsa!</p>
+        <h2 style="font-size: 15pt;">การใช้งาน External Style</h2>'
+        <h3>ข้อความ tag H3</h3>
+</div>
 </body>
 </html>
