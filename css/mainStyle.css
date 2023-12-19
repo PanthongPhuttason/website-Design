@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Kanit:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Kanit:wght@500&display=swap');
 @font-face{
     font-family: myfont1;
     src: url(font/sarabun/THSarabunNew.ttf) format("truetype");
 }
-/*body{
+body{
     width: 320px;
     background-color: #f99;
     margin: auto;
-}*/
+}
 li{
     font-family: kanit;
     display: inline;
@@ -30,9 +30,9 @@ h1{
     background-color: rgb(247, 252, 252);
     padding: 50px;
 }
-.first{
+.first{ */
    
-    /*padding: 30px;*/
+ /*    /*padding: 30px;
     padding: 15px 15px 15px 15px;
     background-color: red;
     border-color: black;
@@ -42,10 +42,10 @@ h1{
     border-right-style: dotted;
     margin: 15px;
     
-}
+}/*
 .second{
     
-    /*padding: 30px;*/
+    padding: 30px;
     padding: 15px 15px 15px 15px;
     background-color: blue;
     margin: 15px;
@@ -56,7 +56,7 @@ h1{
     display: inline-block;
     padding: auto;
 }
-/*.box-1{
+.box-1{
 
 }
 .box-2{
@@ -64,5 +64,72 @@ h1{
 }
 .box-3{
 
+} */
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@font-face {
+    font-family: myfont1;
+    src: url("font/sarabun/TH\ NiramitIT๙.ttf") format("truetype");
 }
-*/
+/*  body{
+    width: 320px;
+    background-color: rgb(245, 164, 164);
+    margin: auto;
+}  */
+li{
+    font-family: kanit;
+    display: inline;
+    font-weight: normal;
+}
+li a{
+    padding-right: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+    h1{
+    color: blueviolet;
+    font-family: myfont1;
+    text-align: center;
+}
+div{
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 254, 254);
+    padding: 50px;
+}
+.first{
+    /* width: 150px; */
+    padding: 15px 15px 15px 15px;
+    background-color: red;
+    border-color: black;
+    border-top-style: solid;
+    border-bottom-style: double;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    margin: 15px;
+}
+.second{
+   /*  width: 150px; */
+   padding: 15px 15px 15px 15px;
+    background-color: blue;
+    margin: 15px;
+    box-shadow: 5px 5px 5px rgb(8, 8, 8);
+}
+.box{
+    width: 30%;
+    display: inline-block;
+    padding: auto;
+}
+/* .box-1{
+
+}
+.box-2{
+
+}
+.box-3{
+
+} */
